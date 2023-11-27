@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font/Gilroy-Regular.woff2);
+}
+body {
+    margin: 0;
+    font-family: Gilroy-Regular;
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.p-4 {
+    padding: 32px;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+}
+header nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 6px 25px;
+    font-size: 14px;
+    background-color: rgb(156, 74, 230);
+    color: white;
+}
+header {
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+main {
+    background-color: black;
+}
+footer {
+    background-color: rgb(4, 4, 36);
+    padding: 45px;
+}
+.portada {
+    background-image: url(../img/30coins.avif);
+    background-size: cover;
+    height: 600px;
+    color: white;
+    
+}
+.portada .col {
+    padding-left: 10%;
+    width: 45%;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+li:hover {
+    border-bottom: solid 2px violet;
+}
+.container {
+    width: 94%;
+    margin: 16px auto;
+}
+.col-3 {
+    width: 25%;
+    padding-bottom: 35px;
+}
+.wrap {
+    flex-wrap: wrap;
+
+}
+.p-2 {
+    padding: 16px;
+}
+.position-relative {
+    position: relative;
+}
+footer nav li {
+    margin: 20px;
+    
+}
+.text-center {
+    text-align: center;
+}
+footer li:hover {
+    border-bottom: solid 2px rgb(201, 75, 201);
+}
+footer nav ul li a {
+    color: rgb(129, 138, 233)
+}
+p {
+    color: rgb(129, 138, 233)
+
+}
